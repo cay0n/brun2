@@ -1,0 +1,110 @@
+{
+  "mappings": {
+    "net/pixelbank/burnt/mixins/BuiltInPackSourceMixin": {
+      "loadPacks": "Lnet/minecraft/class_7678;method_14453(Ljava/util/function/Consumer;)V"
+    },
+    "net/pixelbank/burnt/mixins/CropBlockMixin": {
+      "mayPlaceOn": "Lnet/minecraft/class_2302;method_9695(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z"
+    },
+    "net/pixelbank/burnt/mixins/FireBlockOnPlaceMixin": {
+      "onPlace": "Lnet/minecraft/class_2358;method_9615(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Z)V"
+    },
+    "net/pixelbank/burnt/mixins/FirePathTypeMixin": {
+      "getPathTypeStatic(Lnet/minecraft/world/level/pathfinder/PathfindingContext;Lnet/minecraft/core/BlockPos$MutableBlockPos;)Lnet/minecraft/world/level/pathfinder/PathType;": "Lnet/minecraft/class_14;method_23476(Lnet/minecraft/class_9316;Lnet/minecraft/class_2338$class_2339;)Lnet/minecraft/class_7;"
+    },
+    "net/pixelbank/burnt/mixins/FlameArrowMixin": {
+      "onHitBlock": "Lnet/minecraft/class_1665;method_24920(Lnet/minecraft/class_3965;)V"
+    },
+    "net/pixelbank/burnt/mixins/IronGolemMixin": {
+      "registerGoals": "Lnet/minecraft/class_1439;method_5959()V"
+    },
+    "net/pixelbank/burnt/mixins/LavaFireIgnitionMixin": {
+      "Lnet/minecraft/world/level/Level;setBlockAndUpdate(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z": "Lnet/minecraft/class_1937;method_8501(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)Z",
+      "randomTick": "Lnet/minecraft/class_3616;method_15792(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_3610;Lnet/minecraft/class_5819;)V"
+    },
+    "net/pixelbank/burnt/mixins/LightningBoltMixin": {
+      "tick": "Lnet/minecraft/class_1538;method_5773()V"
+    },
+    "net/pixelbank/burnt/mixins/ParticleEngineAddMixin": {
+      "add(Lnet/minecraft/client/particle/Particle;)V": "Lnet/minecraft/class_702;method_3058(Lnet/minecraft/class_703;)V"
+    },
+    "net/pixelbank/burnt/mixins/RecipeManagerDisableMixin": {
+      "apply": "Lnet/minecraft/class_1863;method_20705(Ljava/util/Map;Lnet/minecraft/class_3300;Lnet/minecraft/class_3695;)V"
+    },
+    "net/pixelbank/burnt/mixins/SmallFireballMixin": {
+      "onHitBlock": "Lnet/minecraft/class_1677;method_24920(Lnet/minecraft/class_3965;)V"
+    },
+    "net/pixelbank/burnt/mixins/SmokeFogMixin": {
+      "setupFog": "Lnet/minecraft/class_758;method_3211(Lnet/minecraft/class_4184;Lnet/minecraft/class_758$class_4596;FZF)V"
+    },
+    "net/pixelbank/burnt/mixins/SplashPotionMixin": {
+      "applyWater": "Lnet/minecraft/class_1686;method_7500()V"
+    },
+    "net/pixelbank/burnt/mixins/StemBlockMixin": {
+      "mayPlaceOn": "Lnet/minecraft/class_2513;method_9695(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z"
+    },
+    "net/pixelbank/burnt/mixins/WindChargeMixin": {
+      "onHitBlock": "Lnet/minecraft/class_9236;method_24920(Lnet/minecraft/class_3965;)V"
+    },
+    "net/pixelbank/burnt/mixins/accessor/ParticleAccessor": {
+      "xd": "field_3852:D",
+      "yd": "field_3869:D",
+      "zd": "field_3850:D"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/pixelbank/burnt/mixins/BuiltInPackSourceMixin": {
+        "loadPacks": "Lnet/minecraft/class_7678;method_14453(Ljava/util/function/Consumer;)V"
+      },
+      "net/pixelbank/burnt/mixins/CropBlockMixin": {
+        "mayPlaceOn": "Lnet/minecraft/class_2302;method_9695(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z"
+      },
+      "net/pixelbank/burnt/mixins/FireBlockOnPlaceMixin": {
+        "onPlace": "Lnet/minecraft/class_2358;method_9615(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Z)V"
+      },
+      "net/pixelbank/burnt/mixins/FirePathTypeMixin": {
+        "getPathTypeStatic(Lnet/minecraft/world/level/pathfinder/PathfindingContext;Lnet/minecraft/core/BlockPos$MutableBlockPos;)Lnet/minecraft/world/level/pathfinder/PathType;": "Lnet/minecraft/class_14;method_23476(Lnet/minecraft/class_9316;Lnet/minecraft/class_2338$class_2339;)Lnet/minecraft/class_7;"
+      },
+      "net/pixelbank/burnt/mixins/FlameArrowMixin": {
+        "onHitBlock": "Lnet/minecraft/class_1665;method_24920(Lnet/minecraft/class_3965;)V"
+      },
+      "net/pixelbank/burnt/mixins/IronGolemMixin": {
+        "registerGoals": "Lnet/minecraft/class_1439;method_5959()V"
+      },
+      "net/pixelbank/burnt/mixins/LavaFireIgnitionMixin": {
+        "Lnet/minecraft/world/level/Level;setBlockAndUpdate(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z": "Lnet/minecraft/class_1937;method_8501(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)Z",
+        "randomTick": "Lnet/minecraft/class_3616;method_15792(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_3610;Lnet/minecraft/class_5819;)V"
+      },
+      "net/pixelbank/burnt/mixins/LightningBoltMixin": {
+        "tick": "Lnet/minecraft/class_1538;method_5773()V"
+      },
+      "net/pixelbank/burnt/mixins/ParticleEngineAddMixin": {
+        "add(Lnet/minecraft/client/particle/Particle;)V": "Lnet/minecraft/class_702;method_3058(Lnet/minecraft/class_703;)V"
+      },
+      "net/pixelbank/burnt/mixins/RecipeManagerDisableMixin": {
+        "apply": "Lnet/minecraft/class_1863;method_20705(Ljava/util/Map;Lnet/minecraft/class_3300;Lnet/minecraft/class_3695;)V"
+      },
+      "net/pixelbank/burnt/mixins/SmallFireballMixin": {
+        "onHitBlock": "Lnet/minecraft/class_1677;method_24920(Lnet/minecraft/class_3965;)V"
+      },
+      "net/pixelbank/burnt/mixins/SmokeFogMixin": {
+        "setupFog": "Lnet/minecraft/class_758;method_3211(Lnet/minecraft/class_4184;Lnet/minecraft/class_758$class_4596;FZF)V"
+      },
+      "net/pixelbank/burnt/mixins/SplashPotionMixin": {
+        "applyWater": "Lnet/minecraft/class_1686;method_7500()V"
+      },
+      "net/pixelbank/burnt/mixins/StemBlockMixin": {
+        "mayPlaceOn": "Lnet/minecraft/class_2513;method_9695(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z"
+      },
+      "net/pixelbank/burnt/mixins/WindChargeMixin": {
+        "onHitBlock": "Lnet/minecraft/class_9236;method_24920(Lnet/minecraft/class_3965;)V"
+      },
+      "net/pixelbank/burnt/mixins/accessor/ParticleAccessor": {
+        "xd": "field_3852:D",
+        "yd": "field_3869:D",
+        "zd": "field_3850:D"
+      }
+    }
+  }
+}
